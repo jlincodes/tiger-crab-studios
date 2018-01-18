@@ -40,6 +40,10 @@ h3 {
   text-transform: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 a:hover {
   cursor: pointer;
 }
@@ -56,7 +60,6 @@ a:hover {
 }
 
 .nav-bar a {
-  text-decoration: none;
   color: white;
   padding: 10px;
   margin: 10px;
@@ -88,6 +91,10 @@ hr {
   margin: auto 25px;
 }
 
+.desc-text-wrapper a {
+  color: black;
+}
+
 .img-wrapper:hover img {
   opacity: 0.5;
   transition: 0.5s ease;
@@ -99,7 +106,6 @@ img {
 }
 
 .social-links a {
-  text-decoration: none;
   color: black;
   margin: 10px;
 }
