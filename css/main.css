@@ -8,6 +8,7 @@ header {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(147, 150, 155, 0.6));
   color: white;
   display: flex;
+  justify-content: center;
 }
 
 .header-text {
@@ -67,8 +68,19 @@ img {
 }
 
 
+@media only screen and (max-width: 800px) {
+  .dev-blog, .project {
+    margin: auto 25px;
+  }
+  /*
+  .img-wrapper, .desc-text-wrapper {
+    width: 95%;
+  } */
+}
+
 @media only screen and (max-width: 480px) {
   .dev-blog, .project {
+    margin: auto;
     flex-direction: column;
   }
   .img-wrapper, .desc-text-wrapper {
