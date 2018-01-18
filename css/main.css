@@ -76,7 +76,7 @@ hr {
   width: 90%;
 }
 
-.dev-blog, .project {
+.about, .dev-blog, .project {
   display: flex;
   justify-content: center;
   align-items: center;
