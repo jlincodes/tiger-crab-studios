@@ -46,6 +46,7 @@ h1 {
 
 section {
   text-align: center;
+  margin: 25px auto;
 }
 
 hr {
@@ -56,10 +57,12 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 25px 50px;
 }
 
 .img-wrapper, .desc-text-wrapper {
   width: 50%;
+  margin: auto 25px;
 }
 
 img {
