@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  height: 310px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(147, 150, 155, 0.6));
+  color: white;
+  display: flex;
+}
+
+/*
+font-family: 'Rakkas', cursive;
+font-family: 'Skranji', cursive;
+ */
+
+h1 {
+  font-family: 'Ruslan Display', cursive;
+  margin: auto;
+  text-transform: uppercase;
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  background-color: rgba(0,0,0,0.7);
+}
