@@ -10,6 +10,15 @@ header {
   display: flex;
 }
 
+.header-text {
+  display: flex;
+  align-items: center;
+}
+
+.header-text h1 {
+  text-align: center;
+}
+
 /*
 font-family: 'Rakkas', cursive;
 font-family: 'Skranji', cursive;
@@ -17,7 +26,6 @@ font-family: 'Skranji', cursive;
 
 h1 {
   font-family: 'Ruslan Display', cursive;
-  margin: auto;
   text-transform: uppercase;
 }
 
@@ -27,4 +35,43 @@ h1 {
   justify-content: space-between;
   position: fixed;
   background-color: rgba(0,0,0,0.7);
+  color: white;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+}
+
+section {
+  text-align: center;
+}
+
+hr {
+  width: 90%;
+}
+
+.dev-blog, .project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-wrapper, .desc-text-wrapper {
+  width: 50%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .dev-blog, .project {
+    flex-direction: column;
+  }
+  .img-wrapper, .desc-text-wrapper {
+    width: 95%;
+  }
 }
