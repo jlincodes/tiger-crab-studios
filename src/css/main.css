@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Ruslan+Display');
+
+/* Nav bar & banner */
+
+header {
+  height: 475px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-image: url("../images/Banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: rgba(0, 0 , 0, .8);
+}
+
+nav a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: rgba(255,255,255,0.9);
+  color: rgba(0, 0 , 0, 0.9);
+}
+
+/* About us */
