@@ -44,8 +44,8 @@ export default class Main extends React.Component {
         <section id='dev-blog'>
           <h2>Development Blog</h2>
           <hr></hr>
-          <div className="dev-blog">
-            <div className="img-wrapper blog-img">
+          <div className="dev-blog reverse-col">
+            <div className="img-wrapper">
               <a href="http://www.tigercrabstudiosblog.com/">
                 <img src={Blog} alt='blog'></img>
               </a>
@@ -77,7 +77,7 @@ export default class Main extends React.Component {
                 Nevera Wars is a deck construction card game where players create their own deck of undead minions.
               </p>
             </div>
-            <div className="img-wrapper card-game-img">
+            <div className="img-wrapper">
               <a href="https://sites.google.com/view/tigercrabstudios/nevera-wars-card-game">
                 <img src={CardGame} alt='card-game'></img>
               </a>
@@ -86,8 +86,8 @@ export default class Main extends React.Component {
 
           <hr></hr>
 
-          <div className="project">
-            <div className="img-wrapper comic-img">
+          <div className="project reverse-col">
+            <div className="img-wrapper">
               <a href="https://sites.google.com/view/tigercrabstudios/nevera-tales-comic-book">
                 <img src={Comic} alt='comic'></img>
               </a>
@@ -113,7 +113,7 @@ export default class Main extends React.Component {
                 Nevera Wars will also be published as an app game and web game to allow more people to experience the game before deciding to purchase a physical copy. There will be a campaign mode and online multiplayer.
               </p>
             </div>
-            <div className="img-wrapper app-img">
+            <div className="img-wrapper">
               <img src={App} alt="app"></img>
               <a href="https://sites.google.com/view/tigercrabstudios/nevera-wars-app-game">
               </a>
@@ -122,8 +122,8 @@ export default class Main extends React.Component {
 
           <hr></hr>
 
-          <div className="project">
-            <div className="img-wrapper video-game-img">
+          <div className="project reverse-col">
+            <div className="img-wrapper">
               <a href="https://sites.google.com/view/tigercrabstudios/nevera-legends-video-game">
                 <img src={VideoGame} alt="video-game"></img>
               </a>
@@ -149,7 +149,7 @@ export default class Main extends React.Component {
                 Project description
               </p>
             </div>
-            <div className="img-wrapper novel-img">
+            <div className="img-wrapper">
               <a href="https://sites.google.com/view/tigercrabstudios/nevera-legends-novel">
                 <img src={Novel} alt="novel"></img>
               </a>

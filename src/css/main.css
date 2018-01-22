@@ -99,6 +99,9 @@ img {
     display: flex;
     flex-direction: column;
   }
+  .reverse-col {
+    flex-direction: column-reverse;
+  }
   .img-wrapper, .desc-text-wrapper {
     width: 95%;
     height: auto;
