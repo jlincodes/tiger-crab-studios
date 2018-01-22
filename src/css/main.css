@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Ruslan+Display');
-
 /* Nav bar & banner */
 
 header {
@@ -14,6 +12,7 @@ header {
 }
 
 nav {
+  position: fixed;
   width: 100%;
   height: 50px;
   display: flex;
@@ -33,4 +32,79 @@ nav a:hover {
   color: rgba(0, 0 , 0, 0.9);
 }
 
-/* About us */
+section {
+  text-align: center;
+  margin: 25px auto;
+}
+
+hr {
+  width: 90%;
+}
+
+.about, .dev-blog, .project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 50px;
+}
+
+.img-wrapper, .desc-text-wrapper {
+  margin: auto 25px;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.desc-text-wrapper a {
+  color: black;
+}
+
+.img-wrapper:hover img {
+  opacity: 0.5;
+  transition: 0.5s ease;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.social-links a {
+  color: black;
+  margin: 10px;
+}
+
+.social-links i:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition: 1s;
+  transition: 0.5s;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .about {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .dev-blog, .project {
+    margin: auto 25px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+ .dev-blog, .project {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .img-wrapper, .desc-text-wrapper {
+    width: 95%;
+    height: auto;
+  }
+  iframe {
+    min-width: 400px;
+    height: 50%;
+  }
+}
