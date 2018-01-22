@@ -1,10 +1,11 @@
 # Tiger Crab Studios
 
 Original site: [Tiger Crab Studios with Google Sites](https://sites.google.com/view/tigercrabstudios/home)
+
 Redesigned proposal site: [Tiger Crab Studios using React.js & published with Github Pages](https://julielin0812.github.io/tiger-crab-studios/)
 
 **2018/01/21 Update**
-- Replicated the basic layout of the main or "homepage" for Tiger Crab Studios
+- Replicated the basic layout of the main or "homepage" for Tiger Crab Studios using the React.js boilerplate, `create-react-app`
 - Enlarged the logo banner
 - Added a default font (Ruslan font from Google Fonts) for all headers
 - Opted to go with a single row of social media icons/links (Facebook, Twitter, Instagram, etc.) and place it at the bottom of the page. I decided to use black colored icons instead of the normal colored ones because the bright colors did not seem to fit in with the theme and feel of the site and intellectual property.
