@@ -1,7 +1,13 @@
 {
-  "main.css": "static/css/main.c17080f1.css",
-  "main.css.map": "static/css/main.c17080f1.css.map",
-  "main.js": "static/js/main.711af49a.js",
-  "main.js.map": "static/js/main.711af49a.js.map",
-  "static/media/logo.svg": "static/media/logo.5d5d9eef.svg"
+  "main.css": "static/css/main.2068c34e.css",
+  "main.css.map": "static/css/main.2068c34e.css.map",
+  "main.js": "static/js/main.35fe96b8.js",
+  "main.js.map": "static/js/main.35fe96b8.js.map",
+  "static/media/Banner.png": "static/media/Banner.3214d397.png",
+  "static/media/blog.jpg": "static/media/blog.cee67f83.jpg",
+  "static/media/nevera_app.jpg": "static/media/nevera_app.5475e7f4.jpg",
+  "static/media/nevera_card_game.jpg": "static/media/nevera_card_game.c0de05d8.jpg",
+  "static/media/nevera_comic.jpg": "static/media/nevera_comic.d31f6811.jpg",
+  "static/media/nevera_novel.jpg": "static/media/nevera_novel.6c55507f.jpg",
+  "static/media/nevera_video_game.jpg": "static/media/nevera_video_game.0e237ad6.jpg"
 }
