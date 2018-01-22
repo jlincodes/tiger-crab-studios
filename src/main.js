@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/main.css';
+import Banner from './images/Banner.png'
 import Blog from './images/blog.jpg';
 import App from './images/nevera_app.jpg';
 import CardGame from './images/nevera_card_game.jpg';
@@ -7,7 +8,7 @@ import Comic from './images/nevera_comic.jpg';
 import Novel from './images/nevera_novel.jpg';
 import VideoGame from './images/nevera_video_game.jpg';
 
-export default class Main extends React.Component {
+export default class Main extends React.Component {;
   render() {
     return (
       <div>
@@ -19,6 +20,7 @@ export default class Main extends React.Component {
           <a href="#projects">Projects</a> |
           <a href="#follow-us">Follow Us</a>
           </nav>
+          <img src={Banner} alt='tiger-crab-studios-banner'></img>
         </header>
 
         <section id='about'>
@@ -35,7 +37,7 @@ export default class Main extends React.Component {
                 We are working on video games, board games, comic books and more. Currently all our projects are set in the fantasy horror genre and produced with the power of Kickstarter.
               </p>
             </div>
-            <iframe width="560" height="315" title="The White Room" src="https://www.youtube.com/embed/JgnWTpQ9Zw0" frameBorder="0" allow="encrypted-media" allowFullScreen></iframe>
+            <iframe title="The White Room" src="https://www.youtube.com/embed/JgnWTpQ9Zw0" frameBorder="0" allow="encrypted-media" allowFullScreen></iframe>
           </div>
         </section>
 
@@ -114,8 +116,8 @@ export default class Main extends React.Component {
               </p>
             </div>
             <div className="img-wrapper">
-              <img src={App} alt="app"></img>
               <a href="https://sites.google.com/view/tigercrabstudios/nevera-wars-app-game">
+                <img src={App} alt="app"></img>
               </a>
             </div>
           </div>
@@ -146,7 +148,7 @@ export default class Main extends React.Component {
                 <h3>Nevera Legends <i>Novel</i></h3>
               </a>
               <p>
-                Project description
+                
               </p>
             </div>
             <div className="img-wrapper">

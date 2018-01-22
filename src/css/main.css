@@ -1,14 +1,19 @@
 /* Nav bar & banner */
 
 header {
-  height: 475px;
+  /* height: 475px; */
   color: white;
-  display: flex;
-  justify-content: center;
-  background-image: url("../images/Banner.png");
+  /* display: flex; */
+  /* justify-content: center; */
+  background-image: linear-gradient(to right, rgba(0,0,0,0.8), rgba(255,255,255,1));
+  /* background-image: url("../images/Banner.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 120%; */
+}
+
+header img {
+  width: 100%;
 }
 
 nav {
@@ -25,11 +30,13 @@ nav a {
   text-decoration: none;
   color: rgba(255, 255, 255, 1);
   padding: 10px;
+  margin: 5px;
 }
 
 nav a:hover {
   background-color: rgba(255,255,255,0.9);
   color: rgba(0, 0 , 0, 0.9);
+  transition: 0.5s;
 }
 
 section {
@@ -48,6 +55,11 @@ hr {
   margin: 25px 50px;
 }
 
+iframe {
+  width: 560px;
+  height: 315px;
+}
+
 .img-wrapper, .desc-text-wrapper {
   margin: auto 25px;
   max-width: 400px;
@@ -56,6 +68,12 @@ hr {
 
 .desc-text-wrapper a {
   color: black;
+}
+
+.desc-text-wrapper a:hover {
+  color: black;
+  text-decoration: underline;
+  transition: 0.5s;
 }
 
 .img-wrapper:hover img {
@@ -91,6 +109,10 @@ img {
   .dev-blog, .project {
     margin: auto 25px;
   }
+  iframe {
+    max-width: 95%;
+    max-height: 270px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -105,9 +127,5 @@ img {
   .img-wrapper, .desc-text-wrapper {
     width: 95%;
     height: auto;
-  }
-  iframe {
-    min-width: 400px;
-    height: 50%;
   }
 }
