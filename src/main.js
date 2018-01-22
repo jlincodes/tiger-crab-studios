@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/main.css';
-import Banner from './images/Banner.png'
+import Banner from './images/Banner.png';
 import Blog from './images/blog.jpg';
 import App from './images/nevera_app.jpg';
 import CardGame from './images/nevera_card_game.jpg';
@@ -8,7 +8,7 @@ import Comic from './images/nevera_comic.jpg';
 import Novel from './images/nevera_novel.jpg';
 import VideoGame from './images/nevera_video_game.jpg';
 
-export default class Main extends React.Component {;
+export default class Main extends React.Component {
   render() {
     return (
       <div>
@@ -148,7 +148,7 @@ export default class Main extends React.Component {;
                 <h3>Nevera Legends <i>Novel</i></h3>
               </a>
               <p>
-                
+
               </p>
             </div>
             <div className="img-wrapper">

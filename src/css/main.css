@@ -1,15 +1,8 @@
 /* Nav bar & banner */
 
 header {
-  /* height: 475px; */
   color: white;
-  /* display: flex; */
-  /* justify-content: center; */
   background-image: linear-gradient(to right, rgba(0,0,0,0.8), rgba(255,255,255,1));
-  /* background-image: url("../images/Banner.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 120%; */
 }
 
 header img {
