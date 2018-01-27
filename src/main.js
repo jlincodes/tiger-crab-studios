@@ -31,6 +31,25 @@ import VideoGame from './images/nevera_video_game.jpg';
 
 // <a href="#about">About</a> |
 
+// <section id='dev-blog'>
+//           <h1>Development Blog</h1>
+//           <div className="dev-blog reverse-col">
+//             <div className="img-wrapper">
+//               <a href="http://www.tigercrabstudiosblog.com/">
+//                 <img src={Blog} alt='blog'></img>
+//               </a>
+//             </div>
+//             <div className="text-wrapper">
+//               <a href="http://www.tigercrabstudiosblog.com/">
+//                 <h3>Tiger Crab Studios Blog</h3>
+//               </a>
+//               <p>
+//                 Click here to visit the Tiger Crab Studios Development Blog, full of useful advice and stories behind the creation of the projects.
+//               </p>
+//             </div>
+//           </div>
+//         </section>
+
 
 
 export default class Main extends React.Component {
@@ -48,37 +67,16 @@ export default class Main extends React.Component {
           <img src={Banner} alt='tiger-crab-studios-banner'></img>
         </header>
 
-        <section id='dev-blog'>
-          <h1>Development Blog</h1>
-          <div className="dev-blog reverse-col">
-            <div className="img-wrapper">
-              <a href="http://www.tigercrabstudiosblog.com/">
-                <img src={Blog} alt='blog'></img>
-              </a>
-            </div>
-            <div className="text-wrapper">
-              <a href="http://www.tigercrabstudiosblog.com/">
-                <h3>Tiger Crab Studios Blog</h3>
-              </a>
-              <p>
-                Click here to visit the Tiger Crab Studios Development Blog, full of useful advice and stories behind the creation of the projects.
-              </p>
-            </div>
-          </div>
-        </section>
-
-
         <section id='projects'>
-          <h1>Projects</h1>
 
 
-          <div className="project-container">
+          <div className="project-container one">
             <a href="https://sites.google.com/view/tigercrabstudios/nevera-wars-card-game">
               <img className='image' src={CardGame} alt='card-game'></img>
             </a>
             <div className="text-wrapper">
               <a href="https://sites.google.com/view/tigercrabstudios/nevera-wars-card-game">
-                <h3>Nevera Wars <i>Card Game</i></h3>
+                <h3>Nevera Wars Card Game</h3>
               </a>
               <p>
                 Nevera Wars is a deck construction card game where players create their own deck of undead minions.
@@ -87,13 +85,13 @@ export default class Main extends React.Component {
           </div>
 
 
-          <div className="project-container reverse-col">
+          <div className="project-container two">
             <a href="https://sites.google.com/view/tigercrabstudios/nevera-tales-comic-book">
               <img className='image' src={Comic} alt='comic'></img>
             </a>
             <div className="text-wrapper">
               <a href="https://sites.google.com/view/tigercrabstudios/nevera-tales-comic-book">
-                <h3>Nevera Tales <i>Comic Book</i></h3>
+                <h3>Nevera Tales Comic</h3>
               </a>
               <p>
                 Explore a more intimate side of Nevera as the Nevera Tales comic books.
@@ -102,13 +100,13 @@ export default class Main extends React.Component {
           </div>
 
 
-          <div className="project-container">
+          <div className="project-container three">
             <a href="https://sites.google.com/view/tigercrabstudios/nevera-wars-app-game">
               <img className='image' src={App} alt="app"></img>
             </a>
             <div className="text-wrapper">
               <a href="https://sites.google.com/view/tigercrabstudios/nevera-wars-app-game">
-                <h3>Nevera Wars <i>App Game</i></h3>
+                <h3>Nevera Wars App</h3>
               </a>
               <p>
                 Nevera Wars will also be published as an app game and web game to allow more people to experience the game before deciding to purchase a physical copy. There will be a campaign mode and online multiplayer.
@@ -117,13 +115,13 @@ export default class Main extends React.Component {
           </div>
 
 
-          <div className="project-container reverse-col">
+          <div className="project-container four">
             <a href="https://sites.google.com/view/tigercrabstudios/nevera-legends-video-game">
               <img className='image' src={VideoGame} alt="video-game"></img>
             </a>
             <div className="text-wrapper">
               <a href="https://sites.google.com/view/tigercrabstudios/nevera-legends-video-game">
-                <h3>Nevera Legends <i>Video Game</i></h3>
+                <h3>Nevera Legends</h3>
               </a>
               <p>
                 Nevera Legends is a monster collection RPG, players will travel across the world of Nevera in search of restoring their friend back to full life after a resurrection was performed catastrophically. But will the power to undo the mistake be worth the price?
@@ -132,13 +130,27 @@ export default class Main extends React.Component {
           </div>
 
 
-          <div className="project-container">
+          <div className="project-container five">
             <a href="https://sites.google.com/view/tigercrabstudios/nevera-legends-novel">
               <img className='image' src={Novel} alt="novel"></img>
             </a>
             <div className="text-wrapper">
               <a href="https://sites.google.com/view/tigercrabstudios/nevera-legends-novel">
-                <h3>Nevera Legends <i>Novel</i></h3>
+                <h3>Nevera Legends Novel </h3>
+              </a>
+              <p>
+
+              </p>
+            </div>
+          </div>
+
+          <div className="project-container six">
+            <a href="">
+              <img className='image' src={Blog} alt="store"></img>
+            </a>
+            <div className="text-wrapper">
+              <a href="https://sites.google.com/view/tigercrabstudios/nevera-legends-novel">
+              <h3>Store</h3>
               </a>
               <p>
 
