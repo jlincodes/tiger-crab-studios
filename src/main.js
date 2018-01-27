@@ -1,5 +1,7 @@
 import React from 'react';
 import './css/main.css';
+
+// import images
 import Banner from './images/Banner.png';
 import Blog from './images/blog.jpg';
 import App from './images/nevera_app.jpg';
@@ -8,14 +10,37 @@ import Comic from './images/nevera_comic.jpg';
 import Novel from './images/nevera_novel.jpg';
 import VideoGame from './images/nevera_video_game.jpg';
 
+
+// <section id='about'>
+//   <h1>About</h1>
+//   <hr></hr>
+//   <div className="about">
+//     <div className="text-wrapper">
+//       <p>
+//         Tiger Crab Studios is an independent creator and publisher focused on great story-telling and creative collaboration.
+//       </p>
+//       <p>
+//         We are working on video games, board games, comic books and more. Currently all our projects are set in the fantasy horror genre and produced with the power of Kickstarter.
+//       </p>
+//     </div>
+//     <iframe title="The White Room" src="https://www.youtube.com/embed/JgnWTpQ9Zw0" frameBorder="0" allow="encrypted-media" allowFullScreen></iframe>
+//   </div>
+// </section>
+//
+// <hr></hr>
+
+// <a href="#about">About</a> |
+
+
+
 export default class Main extends React.Component {
   render() {
     return (
       <div>
+
         <header>
           <nav>
           <a href="#top">Home</a> |
-          <a href="#about">About</a> |
           <a href="#dev-blog">Development Blog</a> |
           <a href="#projects">Projects</a> |
           <a href="#follow-us">Follow Us</a>
@@ -23,36 +48,15 @@ export default class Main extends React.Component {
           <img src={Banner} alt='tiger-crab-studios-banner'></img>
         </header>
 
-        <section id='about'>
-          <h1>Welcome to Tiger Crab Studios</h1>
-          <hr></hr>
-          <h2>About</h2>
-          <hr></hr>
-          <div className="about">
-            <div className="desc-text-wrapper">
-              <p>
-                Tiger Crab Studios is an independent creator and publisher focused on great story-telling and creative collaboration.
-              </p>
-              <p>
-                We are working on video games, board games, comic books and more. Currently all our projects are set in the fantasy horror genre and produced with the power of Kickstarter.
-              </p>
-            </div>
-            <iframe title="The White Room" src="https://www.youtube.com/embed/JgnWTpQ9Zw0" frameBorder="0" allow="encrypted-media" allowFullScreen></iframe>
-          </div>
-        </section>
-
-        <hr></hr>
-
         <section id='dev-blog'>
-          <h2>Development Blog</h2>
-          <hr></hr>
+          <h1>Development Blog</h1>
           <div className="dev-blog reverse-col">
             <div className="img-wrapper">
               <a href="http://www.tigercrabstudiosblog.com/">
                 <img src={Blog} alt='blog'></img>
               </a>
             </div>
-            <div className="desc-text-wrapper">
+            <div className="text-wrapper">
               <a href="http://www.tigercrabstudiosblog.com/">
                 <h3>Tiger Crab Studios Blog</h3>
               </a>
@@ -63,15 +67,16 @@ export default class Main extends React.Component {
           </div>
         </section>
 
-        <hr></hr>
 
         <section id='projects'>
-          <h2>Projects</h2>
+          <h1>Projects</h1>
 
-          <hr></hr>
 
-          <div className="project">
-            <div className="desc-text-wrapper">
+          <div className="project-container">
+            <a href="https://sites.google.com/view/tigercrabstudios/nevera-wars-card-game">
+              <img className='image' src={CardGame} alt='card-game'></img>
+            </a>
+            <div className="text-wrapper">
               <a href="https://sites.google.com/view/tigercrabstudios/nevera-wars-card-game">
                 <h3>Nevera Wars <i>Card Game</i></h3>
               </a>
@@ -79,22 +84,14 @@ export default class Main extends React.Component {
                 Nevera Wars is a deck construction card game where players create their own deck of undead minions.
               </p>
             </div>
-            <div className="img-wrapper">
-              <a href="https://sites.google.com/view/tigercrabstudios/nevera-wars-card-game">
-                <img src={CardGame} alt='card-game'></img>
-              </a>
-            </div>
           </div>
 
-          <hr></hr>
 
-          <div className="project reverse-col">
-            <div className="img-wrapper">
-              <a href="https://sites.google.com/view/tigercrabstudios/nevera-tales-comic-book">
-                <img src={Comic} alt='comic'></img>
-              </a>
-            </div>
-            <div className="desc-text-wrapper">
+          <div className="project-container reverse-col">
+            <a href="https://sites.google.com/view/tigercrabstudios/nevera-tales-comic-book">
+              <img className='image' src={Comic} alt='comic'></img>
+            </a>
+            <div className="text-wrapper">
               <a href="https://sites.google.com/view/tigercrabstudios/nevera-tales-comic-book">
                 <h3>Nevera Tales <i>Comic Book</i></h3>
               </a>
@@ -104,10 +101,12 @@ export default class Main extends React.Component {
             </div>
           </div>
 
-          <hr></hr>
 
-          <div className="project">
-            <div className="desc-text-wrapper">
+          <div className="project-container">
+            <a href="https://sites.google.com/view/tigercrabstudios/nevera-wars-app-game">
+              <img className='image' src={App} alt="app"></img>
+            </a>
+            <div className="text-wrapper">
               <a href="https://sites.google.com/view/tigercrabstudios/nevera-wars-app-game">
                 <h3>Nevera Wars <i>App Game</i></h3>
               </a>
@@ -115,22 +114,14 @@ export default class Main extends React.Component {
                 Nevera Wars will also be published as an app game and web game to allow more people to experience the game before deciding to purchase a physical copy. There will be a campaign mode and online multiplayer.
               </p>
             </div>
-            <div className="img-wrapper">
-              <a href="https://sites.google.com/view/tigercrabstudios/nevera-wars-app-game">
-                <img src={App} alt="app"></img>
-              </a>
-            </div>
           </div>
 
-          <hr></hr>
 
-          <div className="project reverse-col">
-            <div className="img-wrapper">
-              <a href="https://sites.google.com/view/tigercrabstudios/nevera-legends-video-game">
-                <img src={VideoGame} alt="video-game"></img>
-              </a>
-            </div>
-            <div className="desc-text-wrapper">
+          <div className="project-container reverse-col">
+            <a href="https://sites.google.com/view/tigercrabstudios/nevera-legends-video-game">
+              <img className='image' src={VideoGame} alt="video-game"></img>
+            </a>
+            <div className="text-wrapper">
               <a href="https://sites.google.com/view/tigercrabstudios/nevera-legends-video-game">
                 <h3>Nevera Legends <i>Video Game</i></h3>
               </a>
@@ -140,10 +131,12 @@ export default class Main extends React.Component {
             </div>
           </div>
 
-          <hr></hr>
 
-          <div className="project">
-            <div className="desc-text-wrapper">
+          <div className="project-container">
+            <a href="https://sites.google.com/view/tigercrabstudios/nevera-legends-novel">
+              <img className='image' src={Novel} alt="novel"></img>
+            </a>
+            <div className="text-wrapper">
               <a href="https://sites.google.com/view/tigercrabstudios/nevera-legends-novel">
                 <h3>Nevera Legends <i>Novel</i></h3>
               </a>
@@ -151,20 +144,13 @@ export default class Main extends React.Component {
 
               </p>
             </div>
-            <div className="img-wrapper">
-              <a href="https://sites.google.com/view/tigercrabstudios/nevera-legends-novel">
-                <img src={Novel} alt="novel"></img>
-              </a>
-            </div>
           </div>
 
-          <hr></hr>
         </section>
 
         <section id='follow-us'>
-          <h2>Follow Us</h2>
+          <h1>Follow Us</h1>
 
-          <hr></hr>
 
           <div className="social-links">
             <a href="https://www.facebook.com/tigercrabstudios/">
