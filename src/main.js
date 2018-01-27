@@ -57,17 +57,19 @@ export default class Main extends React.Component {
     return (
       <div>
 
-        <header>
-          <nav>
+        <nav>
           <a href="#top">Home</a> |
-          <a href="#dev-blog">Development Blog</a> |
           <a href="#projects">Projects</a> |
+          <a href="#dev-blog">Development Blog</a> |
           <a href="#follow-us">Follow Us</a>
-          </nav>
+        </nav>
+        <header>
           <img src={Banner} alt='tiger-crab-studios-banner'></img>
         </header>
 
         <section id='projects'>
+
+          <h1 className='proj-header'>Projects</h1>
 
 
           <div className="project-container one">
@@ -159,8 +161,10 @@ export default class Main extends React.Component {
           </div>
 
 
+          <h1 id='dev-blog' className='blog-header'>Dev Blog</h1>
+
           <div id='blog-feed'>
-            <h1>dev blog feed</h1>
+            <h1>feed placeholder</h1>
           </div>
 
         </section>
