@@ -158,11 +158,14 @@ export default class Main extends React.Component {
             </div>
           </div>
 
+
+          <div id='blog-feed'>
+            <h1>dev blog feed</h1>
+          </div>
+
         </section>
 
         <section id='follow-us'>
-          <h1>Follow Us</h1>
-
 
           <div className="social-links">
             <a href="https://www.facebook.com/tigercrabstudios/">
