@@ -92,27 +92,12 @@ export default class Main extends React.Component {
 
 
           <div className="project-container two">
-            <a href="https://sites.google.com/view/tigercrabstudios/nevera-tales-comic-book">
-              <img className='image' src={Comic} alt='comic'></img>
-            </a>
-            <div className="text-wrapper">
-              <a href="https://sites.google.com/view/tigercrabstudios/nevera-tales-comic-book">
-                <h3>Nevera Tales Comic</h3>
-              </a>
-              <p>
-                Explore a more intimate side of Nevera as the Nevera Tales comic books.
-              </p>
-            </div>
-          </div>
-
-
-          <div className="project-container three">
             <a href="https://sites.google.com/view/tigercrabstudios/nevera-wars-app-game">
               <img className='image' src={App} alt="app"></img>
             </a>
             <div className="text-wrapper">
               <a href="https://sites.google.com/view/tigercrabstudios/nevera-wars-app-game">
-                <h3>Nevera Wars App</h3>
+                <h3>Nevera Wars App Game</h3>
               </a>
               <p>
                 Nevera Wars will also be published as an app game and web game to allow more people to experience the game before deciding to purchase a physical copy. There will be a campaign mode and online multiplayer.
@@ -121,19 +106,20 @@ export default class Main extends React.Component {
           </div>
 
 
-          <div className="project-container four">
-            <a href="https://sites.google.com/view/tigercrabstudios/nevera-legends-video-game">
-              <img className='image' src={VideoGame} alt="video-game"></img>
+          <div className="project-container three">
+            <a href="https://sites.google.com/view/tigercrabstudios/nevera-tales-comic-book">
+              <img className='image' src={Comic} alt='comic'></img>
             </a>
             <div className="text-wrapper">
-              <a href="https://sites.google.com/view/tigercrabstudios/nevera-legends-video-game">
-                <h3>Nevera Legends</h3>
+              <a href="https://sites.google.com/view/tigercrabstudios/nevera-tales-comic-book">
+                <h3>Nevera Tales Comic Book</h3>
               </a>
               <p>
-                Nevera Legends is a monster collection RPG, players will travel across the world of Nevera in search of restoring their friend back to full life after a resurrection was performed catastrophically. But will the power to undo the mistake be worth the price?
+                Explore a more intimate side of Nevera as the Nevera Tales comic books.
               </p>
             </div>
           </div>
+
 
 
           <div className="project-container five">
@@ -150,6 +136,21 @@ export default class Main extends React.Component {
             </div>
           </div>
 
+          <div className="project-container four">
+            <a href="https://sites.google.com/view/tigercrabstudios/nevera-legends-video-game">
+              <img className='image' src={VideoGame} alt="video-game"></img>
+            </a>
+            <div className="text-wrapper">
+              <a href="https://sites.google.com/view/tigercrabstudios/nevera-legends-video-game">
+                <h3>Nevera Legends Video Game</h3>
+              </a>
+              <p>
+                Nevera Legends is a monster collection RPG, players will travel across the world of Nevera in search of restoring their friend back to full life after a resurrection was performed catastrophically. But will the power to undo the mistake be worth the price?
+              </p>
+            </div>
+          </div>
+
+          
           <div className="project-container six">
             <a href="">
               <img className='image' src={Blog} alt="store"></img>
