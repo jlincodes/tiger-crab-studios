@@ -11,9 +11,9 @@ const BlogPostItem = (prop) => {
     let el = document.createElement('div');
     el.innerHTML = post.content;
     let text = el.textContent;
-    
+
     return (
-      <li>
+      <li className='blog-post'>
         <h3>{post.title}</h3>
         <div>{text}</div>
       </li>

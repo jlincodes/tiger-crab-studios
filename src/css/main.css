@@ -109,6 +109,14 @@ iframe {
   width: 400px;
 }
 
+.blog-post-list {
+  list-style: none;
+  text-align: left;
+  margin: 0;
+  padding: 0 20px;
+}
+
+
 .project-container {
     position: relative;
     width: 360px;

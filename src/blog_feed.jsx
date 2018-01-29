@@ -40,13 +40,13 @@ export default class BlogFeed extends React.Component {
       );
     } else {
       return (
-        <div>
+        <ul className='blog-post-list'>
           {
             posts.map( (post, idx) => (
               <BlogPostItem key={idx} post={post} />
             ))
           }
-        </div>
+        </ul>
       );
     }
   }
