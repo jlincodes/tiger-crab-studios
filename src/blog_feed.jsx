@@ -33,7 +33,7 @@ export default class BlogFeed extends React.Component {
 
   render() {
     let posts = this.state.posts;
-    
+
     if (!this.state.posts) {
       return (
         <div>Loading...</div>
@@ -41,7 +41,11 @@ export default class BlogFeed extends React.Component {
     } else {
       return (
         <div>
-          Loaded
+          {
+            posts.map( (post, idx) => (
+              <BlogPostItem key={idx} post={post} />
+            ))
+          }
         </div>
       );
     }
