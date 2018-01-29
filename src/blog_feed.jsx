@@ -8,7 +8,7 @@ export default class BlogFeed extends React.Component {
     this.getPosts = this.getPosts.bind(this);
   }
 
-  componentDidMount() {
+  componentWillMount() {
     this.getPosts();
   }
 
@@ -32,8 +32,9 @@ export default class BlogFeed extends React.Component {
   }
 
   render() {
-
-    if (this.state.posts) {
+    let posts = this.state.posts;
+    
+    if (!this.state.posts) {
       return (
         <div>Loading...</div>
       );

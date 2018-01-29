@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './css/main.css';
-import BlogPostItem from './blog_post_item';
+import BlogFeed from './blog_feed';
 
 // import images
 import Banner from './images/Banner.png';
@@ -168,7 +168,7 @@ export default class Main extends React.Component {
           <h1 id='dev-blog' className='blog-header'>Dev Blog</h1>
 
           <div id='blog-feed'>
-            
+            <BlogFeed />
           </div>
 
         </section>
