@@ -1,5 +1,7 @@
 import React from 'react';
+
 import './css/main.css';
+import BlogPostItem from './blog_post_item';
 
 // import images
 import Banner from './images/Banner.png';
@@ -50,10 +52,12 @@ import VideoGame from './images/nevera_video_game.jpg';
 //           </div>
 //         </section>
 
-
+// Blogger test api key: AIzaSyBOL8CuBD84Uk5IDQYUGzE49U4fUhE562I
 
 export default class Main extends React.Component {
+
   render() {
+
     return (
       <div>
 
@@ -164,7 +168,7 @@ export default class Main extends React.Component {
           <h1 id='dev-blog' className='blog-header'>Dev Blog</h1>
 
           <div id='blog-feed'>
-            <h1>feed placeholder</h1>
+            
           </div>
 
         </section>
