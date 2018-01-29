@@ -1,14 +1,22 @@
 import React from 'react';
 
 const BlogPostItem = (prop) => {
-  if (!prop) {
+  let post = prop.post;
+  if (!post) {
     return (
       <div>Loading</div>
     );
   } else {
-    console.log(prop.post.title);
+    // console.log(post);
+    let el = document.createElement('div');
+    el.innerHTML = post.content;
+    let text = el.textContent;
+    
     return (
-      <div>loaded</div>
+      <li>
+        <h3>{post.title}</h3>
+        <div>{text}</div>
+      </li>
     );
   }
 
