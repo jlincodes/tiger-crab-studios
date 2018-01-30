@@ -161,6 +161,8 @@ iframe {
   grid-row-end: 5;
   width: 400px;
   border-left: 1px solid gray;
+  margin-left: 10px;
+  padding-left: 10px;
 }
 
 .blog-post-list {
