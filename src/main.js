@@ -62,10 +62,12 @@ export default class Main extends React.Component {
       <div>
 
         <nav>
-          <a href="#top">Home</a> |
-          <a href="#projects">Projects</a> |
-          <a href="#dev-blog">Development Blog</a> |
-          <a href="#follow-us">Follow Us</a>
+          <div>
+            <a href="#top">Home</a> |
+              <a href="#projects">Projects</a> |
+                <a href="#dev-blog">Development Blog</a> |
+                  <a href="#follow-us">Follow Us</a>
+          </div>
         </nav>
         <header>
           <img src={Banner} alt='tiger-crab-studios-banner'></img>
