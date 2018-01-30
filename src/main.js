@@ -77,7 +77,7 @@ export default class Main extends React.Component {
 
 
           <div className="project-container one">
-            <a href="https://sites.google.com/view/tigercrabstudios/nevera-wars-card-game">
+            <a className='proj-link' href="https://sites.google.com/view/tigercrabstudios/nevera-wars-card-game">
               <img className='image' src={CardGame} alt='card-game'></img>
             </a>
             <div className="text-wrapper">
@@ -92,7 +92,7 @@ export default class Main extends React.Component {
 
 
           <div className="project-container two">
-            <a href="https://sites.google.com/view/tigercrabstudios/nevera-wars-app-game">
+            <a className='proj-link' href="https://sites.google.com/view/tigercrabstudios/nevera-wars-app-game">
               <img className='image' src={App} alt="app"></img>
             </a>
             <div className="text-wrapper">
@@ -107,7 +107,7 @@ export default class Main extends React.Component {
 
 
           <div className="project-container three">
-            <a href="https://sites.google.com/view/tigercrabstudios/nevera-tales-comic-book">
+            <a className='proj-link' href="https://sites.google.com/view/tigercrabstudios/nevera-tales-comic-book">
               <img className='image' src={Comic} alt='comic'></img>
             </a>
             <div className="text-wrapper">
@@ -123,7 +123,7 @@ export default class Main extends React.Component {
 
 
           <div className="project-container five">
-            <a href="https://sites.google.com/view/tigercrabstudios/nevera-legends-novel">
+            <a className='proj-link' href="https://sites.google.com/view/tigercrabstudios/nevera-legends-novel">
               <img className='image' src={Novel} alt="novel"></img>
             </a>
             <div className="text-wrapper">
@@ -137,7 +137,7 @@ export default class Main extends React.Component {
           </div>
 
           <div className="project-container four">
-            <a href="https://sites.google.com/view/tigercrabstudios/nevera-legends-video-game">
+            <a className='proj-link' href="https://sites.google.com/view/tigercrabstudios/nevera-legends-video-game">
               <img className='image' src={VideoGame} alt="video-game"></img>
             </a>
             <div className="text-wrapper">
@@ -150,9 +150,9 @@ export default class Main extends React.Component {
             </div>
           </div>
 
-          
+
           <div className="project-container six">
-            <a href="">
+            <a className='proj-link' href="">
               <img className='image' src={Blog} alt="store"></img>
             </a>
             <div className="text-wrapper">
