@@ -64,9 +64,9 @@ export default class Main extends React.Component {
         <nav>
           <div>
             <a href="#top">Home</a> |
-              <a href="#projects">Projects</a> |
-                <a href="#dev-blog">Development Blog</a> |
-                  <a href="#follow-us">Follow Us</a>
+            <a href="#projects">Projects</a> |
+            <a href="#dev-blog">Development Blog</a> |
+            <a href="#follow-us">Follow Us</a>
           </div>
         </nav>
         <header>
@@ -175,6 +175,8 @@ export default class Main extends React.Component {
           </div>
 
         </section>
+
+        <hr></hr>
 
         <section id='follow-us'>
 
