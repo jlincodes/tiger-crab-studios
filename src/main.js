@@ -152,7 +152,7 @@ export default class Main extends React.Component {
 
 
           <div className="project-container six">
-            <a className='proj-link' href="">
+            <a className='proj-link' href="https://gumroad.com/tigercrabstudios">
               <img className='image' src={Blog} alt="store"></img>
             </a>
             <div className="text-wrapper">
