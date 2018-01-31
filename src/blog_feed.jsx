@@ -13,7 +13,7 @@ export default class BlogFeed extends React.Component {
   }
 
   getPosts() {
-    let url = 'https://www.googleapis.com/blogger/v3/blogs/337567067731643429/posts?key=';
+    let url = 'https://www.googleapis.com/blogger/v3/blogs/5286042365565724381/posts?key=';
     const apiKey = 'AIzaSyBOL8CuBD84Uk5IDQYUGzE49U4fUhE562I';
     url += apiKey;
 
@@ -22,8 +22,8 @@ export default class BlogFeed extends React.Component {
       if (request.readyState === XMLHttpRequest.DONE && request.status === 200) {
         // console.log(request.response);
         const data = JSON.parse(request.responseText);
-        // console.log(data.items);
-        this.setState({ posts: data.items });
+        const postsArr = data.items.slice(0,3);
+        this.setState({ posts: postsArr });
       }
     };
 

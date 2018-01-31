@@ -10,13 +10,15 @@ const BlogPostItem = (prop) => {
     // console.log(post);
     let el = document.createElement('div');
     el.innerHTML = post.content;
-    let text = el.textContent;
+    let text = el.textContent.split('').slice(0, 500).join('');
+    // console.log(text);
+    // console.log(text.split('').slice(0, 300).join(''));
     let url = post.url;
 
     return (
       <li className='blog-post'>
         <h3>{post.title}</h3>
-        <div>{text}</div>
+        <div>{text}...</div>
         <span>
           <a href={url}>Read more...</a>
         </span>
