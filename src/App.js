@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import {
   BrowserRouter as Router,
   Route,
-  Link
 } from 'react-router-dom';
+// Link
 
-import Main from './main';
+import Main from './components/main';
 
 const App = () => (
   <Router>

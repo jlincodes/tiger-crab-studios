@@ -1,16 +1,16 @@
 import React from 'react';
 
-import './css/main.css';
-import BlogFeed from './components/blog_feed/blog_feed';
+import '../css/main.css';
+import BlogFeed from './blog_feed/blog_feed';
 
 // import images
-import Banner from './images/Banner.png';
-import Blog from './images/blog.jpg';
-import App from './images/nevera_app.jpg';
-import CardGame from './images/nevera_card_game.jpg';
-import Comic from './images/nevera_comic.jpg';
-import Novel from './images/nevera_novel.jpg';
-import VideoGame from './images/nevera_video_game.jpg';
+import Banner from '../images/Banner.png';
+import Blog from '../images/blog.jpg';
+import App from '../images/nevera_app.jpg';
+import CardGame from '../images/nevera_card_game.jpg';
+import Comic from '../images/nevera_comic.jpg';
+import Novel from '../images/nevera_novel.jpg';
+import VideoGame from '../images/nevera_video_game.jpg';
 
 
 // <section id='about'>
