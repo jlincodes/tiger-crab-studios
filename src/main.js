@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './css/main.css';
-import BlogFeed from './blog_feed';
+import BlogFeed from './components/blog_feed/blog_feed';
 
 // import images
 import Banner from './images/Banner.png';
