@@ -7,6 +7,7 @@ header {
   display: flex;
   align-items: center;
   overflow: hidden;
+  padding-top: 50px;
 }
 
 header img {
@@ -98,7 +99,11 @@ iframe {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-  width: 75%;
+  width: 90%;
+}
+
+.text-wrapper h3 {
+  margin: 15px auto;
 }
 
 .project-container:hover .image {
